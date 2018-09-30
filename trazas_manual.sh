@@ -58,9 +58,3 @@ echo ${port}
 
 
 
-#./trazas_199.sh & ./trazas_197.sh & ./trazas_189.sh & ./trazas_130.sh & ./trazas_132.sh & ./trazas_222.sh & ./trazas_221.sh 
-#ssh trazas@10.170.0.197 "/usr/sbin/tcpdump '(host 162.248.55.221 or port 11380)' -i any -s 1500 -w -" | wireshark-gtk -k -i -
-
-
-
-
